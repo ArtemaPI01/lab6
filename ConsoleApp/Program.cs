@@ -12,8 +12,11 @@ namespace ConsoleApp
             Alisher.init(fio, 0, 0);
             Alisher.enter();
             Alisher.print();
+            Shop shop = new Shop();
+            shop.enter();
+            shop.print();
+            shop.cloakShop();
 
-            //dd
         }
     }
 }
