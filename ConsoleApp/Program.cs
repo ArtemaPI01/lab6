@@ -16,7 +16,12 @@ namespace ConsoleApp
             shop.enter();
             shop.print();
             shop.cloakShop();
-
+            Warehouse home = new Warehouse();
+            home.enter();
+            home.print();
+            home.Poisk("AVS");
+            int a = 20;
+            Console.WriteLine($"Время разгрузки {a} тонн товара: {home.cloakWarehouse(a)} минут");
         }
     }
 }
